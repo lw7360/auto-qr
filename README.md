@@ -1,2 +1,2 @@
-easy-qr
+Auto QR
 =======
