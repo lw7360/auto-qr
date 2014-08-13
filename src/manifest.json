@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Auto QR",
+  "description": "Automatically adds links to QR Images viewed in Chrome.",
+  "version": "0.0.1",
+
+  "icons": { "48": "48temp.png",
+             "128": "temp.png"},
+
+  "permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["jsqrcode/grid.js", "jsqrcode/version.js", "jsqrcode/detector.js",
+                "jsqrcode/formatinf.js", "jsqrcode/errorlevel.js", "jsqrcode/bitmat.js",
+                "jsqrcode/datablock.js", "jsqrcode/bmparser.js", "jsqrcode/datamask.js",
+                "jsqrcode/rsdecoder.js", "jsqrcode/gf256poly.js",  "jsqrcode/gf256.js",
+                "jsqrcode/decoder.js", "jsqrcode/qrcode.js", "jsqrcode/findpat.js",
+                "jsqrcode/alignpat.js", "jsqrcode/databr.js",
+                 "jquery.js", "auto-qr.js"],
+    "persistent": true
+  }
+}
