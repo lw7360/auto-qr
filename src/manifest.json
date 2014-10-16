@@ -1,13 +1,10 @@
 {
   "manifest_version": 2,
-
   "name": "Auto QR",
   "description": "Automatically adds links to QR Images viewed in Chrome.",
   "version": "0.0.1",
-
   "icons": { "48": "48logo.png",
              "128": "128logo.png"},
-
   "permissions": [
     "<all_urls>"
   ],
